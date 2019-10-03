@@ -29,6 +29,9 @@ header .header-text-inner{
   font-weight: bold;
   font-family: cursive;
 }
+header .header-text-inner span{
+  text-transform: uppercase;
+}
 
 header .header-text-outer .header-text-inner{
   justify-content: center;
@@ -50,6 +53,7 @@ header .header-text-outer .header-text-inner{
 }
 .profile-details p
 {
+  text-transform: uppercase;
   font-weight: bold;
 }
 .profile-details span
@@ -87,7 +91,10 @@ i
   justify-content: space-between;
   font-weight: bold;
 }
-
+.outer-child span
+{
+  text-transform: uppercase;
+}
 .outer-child div
 {
   width: 30%;
@@ -127,11 +134,13 @@ i
 {
   margin-left: 50px;
   list-style-type: none;
+  text-transform: uppercase;
 }
 .expertise ul
 {
   margin-left: 25%;
   list-style-type: none;
+  text-transform: uppercase;
 }
 .inner-child1 {
   margin-left: 35%;
@@ -143,6 +152,9 @@ i
   z-index: 10;
   padding: 10px;
   background-color: #EDC9AF;
+}
+.inner-child1 span{
+  text-transform: uppercase;
 }
 .experience
 {
@@ -156,6 +168,7 @@ i
 }
 .designs span
 {
+  text-transform: uppercase;
   font-weight: bold;
 }
 .designs ul
@@ -167,6 +180,9 @@ i
   margin-left: 50%;
   font-size: 15px;
   margin-bottom: 10px;
+}
+.place p{
+  text-transform: uppercase;
 }
 .bottom-right
 {
