@@ -1,0 +1,178 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-family:sans-serif;
+}
+.container{
+  width: 940px;
+  margin: 0 auto;
+}
+header{
+  background-color: #ADB7B6;
+  padding: 50px 0;
+}
+header .header-text-outer{
+  width: 60%;
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+}
+header .header-text-inner{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+header .header-text-outer .header-text-inner{
+  justify-content: center;
+  margin: 10px;
+}
+.profile
+{
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+.profile div{
+  flex: 1;
+}
+.profile-img img
+{
+  margin-left: 50px;
+}
+.profile-details p
+{
+  font-weight: bold;
+}
+.profile-details span
+{
+  color: grey;
+  font-size: 18px;
+}
+.contact-details ul
+{
+  list-style-type: none;
+}
+.contact-details li
+{
+  margin-bottom: 30px;
+}
+i
+{
+  float: right;
+  margin-right: 10px;
+}
+.parent {
+
+  position: relative;
+}
+
+.row {
+  position: absolute;
+  border: 1px solid grey;
+  width: 100%;
+  top: 18px;
+}
+
+.outer-child {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.outer-child div
+{
+  width: 30%;
+}
+.inner-child {
+  border: 1px solid black;
+  background: white;
+  position: relative;
+  text-align: center;
+  z-index: 10;
+  padding: 10px;
+}
+.middle-child {
+  padding: 0px;
+  font-size: 15px;
+  background: white;
+  position: relative;
+  z-index: 10;
+  padding: 10px;
+  text-align: center;
+  background-color: #EDC9AF;
+}
+.qualification
+{
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+.qualification div{
+  flex: 1;
+}
+.education ul
+{
+  color: grey;
+}
+.skills ul
+{
+  margin-left: 50px;
+  list-style-type: none;
+}
+.expertise ul
+{
+  margin-left: 25%;
+  list-style-type: none;
+}
+.inner-child1 {
+  margin-left: 35%;
+  padding: 0px;
+  font-size: 15px;
+  background: white;
+  position: relative;
+  text-align: center;
+  z-index: 10;
+  padding: 10px;
+  background-color: #EDC9AF;
+}
+.experience
+{
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+.experience div
+{
+    margin-top: 5%;
+}
+.designs span
+{
+  font-weight: bold;
+}
+.designs ul
+{
+  color: grey;
+}
+.place
+{
+  margin-left: 50%;
+  font-size: 15px;
+}
+.bottom-right
+{
+    border: solid 1px black;
+    background-color: #EDC9AF;
+}
+footer div
+{
+  width: 100%;
+  background-color: #EDC9AF;
+}
